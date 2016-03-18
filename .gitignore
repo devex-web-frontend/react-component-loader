@@ -1,0 +1,14 @@
+.idea
+!.idea/jsLinters
+!.idea/inspectionProfiles
+node_modules
+/lib
+dist
+old_dist
+_inc/js/bundles/build
+npm-debug.log
+esdoc
+_tmp
+bower_cache
+jspm_packages
+/babel_cache

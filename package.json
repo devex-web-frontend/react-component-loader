@@ -1,0 +1,32 @@
+{
+  "name": "react-component-loader",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "eslint --config ./node_modules/eslint-config-dx/.eslintrc --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devex-web-frontend/react-component-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devex-web-frontend/react-component-loader/issues"
+  },
+  "homepage": "https://github.com/devex-web-frontend/react-component-loader#readme",
+  "peerDependencies": {
+    "loader-utils": "<1.0.0",
+    "webpack": "<2.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^1.10.3",
+    "eslint-config-dx": "devex-web-frontend/eslint-config-dx",
+    "eslint-plugin-react": "^4.2.3",
+    "loader-utils": "^0.2.12",
+    "webpack": "^1.12.14"
+  }
+}
