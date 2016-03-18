@@ -1,4 +1,4 @@
-import utils from 'loader-utils';
+var utils = require('loader-utils');
 
 /**
  * ReactPageLoader
@@ -8,9 +8,11 @@ module.exports = function ReactPageLoader(source) {
 	if (this.cacheable) {
 		this.cacheable();
 	}
-	const done = this.async();
+	var done = this.async();
 	
-	const {target, isStatic} = utils.parseQuery(this.query);
+	var query = utils.parseQuery(this.query);
+	var target = query.target;
+	var isStatic = query.isStatic;
 
 	if (isStatic) {
 		source += `
