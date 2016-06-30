@@ -28,8 +28,8 @@ module.exports = function ReactPageLoader(source) {
 				typeof window !== 'undefined' &&
 				window.document && window.document.createElement
 			);
-			${targetScript}
 			if (canUseDom) {
+				${targetScript}
 				var ReactDOM = require('react-dom');
 				ReactDOM.render(
 					React.createElement(exports.default),
