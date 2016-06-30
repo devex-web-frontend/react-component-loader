@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run eslint",
-    "eslint": "eslint --config ./node_modules/eslint-config-dx/.eslintrc --ext .js ."
+    "eslint": "eslint --config ./node_modules/dx-lint/.eslintrc --ext .js ."
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,10 @@
     "webpack": "<2.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^5.0.0",
-    "eslint": "^1.10.3",
-    "eslint-config-dx": "devex-web-frontend/eslint-config-dx",
-    "eslint-plugin-react": "^4.2.3",
+    "babel-eslint": "^6.0.5",
+    "dx-lint": "github:devex-web-frontend/dx-lint",
+    "eslint": "^2.13.1",
+    "eslint-plugin-babel": "^3.3.0",
     "loader-utils": "^0.2.12",
     "webpack": "^1.12.14"
   }

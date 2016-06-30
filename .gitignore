@@ -2,3 +2,4 @@
 !.idea/jsLinters
 !.idea/inspectionProfiles
 node_modules
+/*.log
