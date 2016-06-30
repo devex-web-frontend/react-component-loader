@@ -17,7 +17,7 @@ module.exports = function ReactPageLoader(source) {
 	var targetScript = target ?
 		`var target = document.querySelector(${JSON.stringify(target)});` :
 		`var target = document.createElement('div');
-		target.id = ${defaultId};
+		target.id = ${JSON.stringify(defaultId)};
 		document.body.appendChild(target);`;
 
 	//noinspection JSConstructorReturnsPrimitive
